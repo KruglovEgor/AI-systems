@@ -1,0 +1,1622 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:ab4f9229-f808-4451-aa5d-81745ca12107#"
+     xml:base="urn:webprotege:ontology:ab4f9229-f808-4451-aa5d-81745ca12107"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:ab4f9229-f808-4451-aa5d-81745ca12107"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6ty0OOIO8vhY12wJtdMpP -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB6ty0OOIO8vhY12wJtdMpP">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz"/>
+        <rdfs:label>hasQuality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiSaiMd27EDXjGIFW42tZC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBiSaiMd27EDXjGIFW42tZC">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>hasWeapon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdD3dhmfQGBXqI5Nz6lxun -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDdD3dhmfQGBXqI5Nz6lxun">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q"/>
+        <rdfs:label>hasGender</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDy5ALZJnnVQHhHviKqPbFG -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDy5ALZJnnVQHhHviKqPbFG">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>hasElement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rqg67EHuyqXAF0MWs9dKyL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rqg67EHuyqXAF0MWs9dKyL">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>hasRegion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for 2 genders</rdfs:comment>
+        <rdfs:label>Gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for all regions in Genshin</rdfs:comment>
+        <rdfs:label>Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for all 7 elements in Genshin</rdfs:comment>
+        <rdfs:label>Element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva">
+        <rdfs:label>Characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for 2 qualities of characters</rdfs:comment>
+        <rdfs:label>Quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8DdlQkFhRPgI195joSoDa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8DdlQkFhRPgI195joSoDa">
+        <rdfs:label>Reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB6ty0OOIO8vhY12wJtdMpP"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBiSaiMd27EDXjGIFW42tZC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDdD3dhmfQGBXqI5Nz6lxun"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDy5ALZJnnVQHhHviKqPbFG"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rqg67EHuyqXAF0MWs9dKyL"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for all genshin characters</rdfs:comment>
+        <rdfs:label>Character</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0jcCXldXwoI9EhyfEwOva"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class for all 5 types of weapons in Genshin</rdfs:comment>
+        <rdfs:label>Weapon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R04YhU6oIsDV3By3O686JR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R04YhU6oIsDV3By3O686JR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Raiden</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2I9EMpBvwFGZ3vC4KGoCA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R2I9EMpBvwFGZ3vC4KGoCA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Kirara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>Polearm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73cAyoLc6Lel1UcLTodexe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R73cAyoLc6Lel1UcLTodexe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Yoimiya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R765lDwxX4TMPXAhbaD9WfR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R765lDwxX4TMPXAhbaD9WfR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Ayato</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Sumeru</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Dendro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IWgP1s7k8ndpZ1aHQiObS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7IWgP1s7k8ndpZ1aHQiObS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Wriothesley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MqBRn649s1bB7ji7Xg2J0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7MqBRn649s1bB7ji7Xg2J0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Baizhu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Electro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SRCxOIdwgVnfi0HXpY1Yp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7SRCxOIdwgVnfi0HXpY1Yp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Furina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TJw0aoKgLGuW8RD7QZ8jR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7TJw0aoKgLGuW8RD7QZ8jR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Candace</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7UisUtmgo1BVgX7fIZZFO3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7UisUtmgo1BVgX7fIZZFO3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Sara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7V4hsrQK7KUWVQEBPXJ3AV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7V4hsrQK7KUWVQEBPXJ3AV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Sigewinne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gl3PBBHvbxp1TIeQhvkoy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7gl3PBBHvbxp1TIeQhvkoy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Diona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nLA3Du5tNJNjv4fxHMg2N -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7nLA3Du5tNJNjv4fxHMg2N">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Ganyu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Fontaine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7v3edk04IGYDzaFvdLPBk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7v3edk04IGYDzaFvdLPBk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Lisa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wHfIDx9HgqTFUDmzdZltO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7wHfIDx9HgqTFUDmzdZltO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Collei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wkEsyoTv65WyAL1MT43E -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7wkEsyoTv65WyAL1MT43E">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Bennett</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xpWq633s8dpA9NsKjG075 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7xpWq633s8dpA9NsKjG075">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Barbara</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80Bl7uU8s1xXketiV87ncz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R80Bl7uU8s1xXketiV87ncz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Xingqiu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q"/>
+        <rdfs:label>Female</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IFnTnFTQHRu5L5zaP5FJP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8IFnTnFTQHRu5L5zaP5FJP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R8SWV9Y7IoRyh4vvyjnFDGg"/>
+        <rdfs:label>Kachina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8J2mxVcCmvmGm7vDLdsyD7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8J2mxVcCmvmGm7vDLdsyD7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R8SWV9Y7IoRyh4vvyjnFDGg"/>
+        <rdfs:label>Mualani</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JC9ggg0b2STNDSFM3eYgo -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8JC9ggg0b2STNDSFM3eYgo">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Ningguang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SWV9Y7IoRyh4vvyjnFDGg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8SWV9Y7IoRyh4vvyjnFDGg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Natlan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YdJYdHvd6cGu2wS6mqc1h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8YdJYdHvd6cGu2wS6mqc1h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Rosaria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz"/>
+        <rdfs:label>4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8e1HeNZM7bHXzDzCH5LrNs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8e1HeNZM7bHXzDzCH5LrNs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Itto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tMLbQQCfcYLeiXFs2R6BO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8tMLbQQCfcYLeiXFs2R6BO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Sethos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vZHfcW2VBOR29mEHVYunS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8vZHfcW2VBOR29mEHVYunS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Layla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Hydro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92cerCnQS7imijtOBdievE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R92cerCnQS7imijtOBdievE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RWGs4ZsGwB5eCcdTvcm6ZI"/>
+        <rdfs:label>Aloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EmSI5KnHVVP08QZ3mP0WS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9EmSI5KnHVVP08QZ3mP0WS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Snezhnaya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PTYN8Zp4u78QjLACLnu3h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9PTYN8Zp4u78QjLACLnu3h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Xinyan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Pyro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9UGoQPFysr0jF6XjxiC4Sp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9UGoQPFysr0jF6XjxiC4Sp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Sucrose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7eufxCx8kjlNruR9kjb68q"/>
+        <rdfs:label>Male</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZjTyvHOrBzyoZF5pW93yd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZjTyvHOrBzyoZF5pW93yd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Yelan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Anemo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9a7X9frzyGIRYbnuADW79D -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9a7X9frzyGIRYbnuADW79D">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Razor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gtl9FktmpBaBVaYPvh8mk -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9gtl9FktmpBaBVaYPvh8mk">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Xianyun</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBEF7pdf7FlWzXorqtOxbJz"/>
+        <rdfs:label>5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hyVSMYOBwURhX1Tl0mu5J -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hyVSMYOBwURhX1Tl0mu5J">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Sayu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9paI8FNbL1iLHQCznju1Pv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9paI8FNbL1iLHQCznju1Pv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Lyney</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qmJ7Iy2NyrPGSgCoPkafg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9qmJ7Iy2NyrPGSgCoPkafg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Gaming</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>Catalyst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t6ItbK6YXtgGuqdPU3nRn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9t6ItbK6YXtgGuqdPU3nRn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Navia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tF5rdXekcA5SFRw7Ipno3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9tF5rdXekcA5SFRw7Ipno3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Heizou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tZSiOwNtmeDyFZ2JlQoMu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9tZSiOwNtmeDyFZ2JlQoMu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Lynette</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7yn1xRaFokSD5HQ3NdNM0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7yn1xRaFokSD5HQ3NdNM0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Neuvillette</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9d795SdRZWjbg3Jc9JOsd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB9d795SdRZWjbg3Jc9JOsd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Hu Tao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBC6DMheBTye2bHZMXXmskC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBC6DMheBTye2bHZMXXmskC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Alhaitham</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>Sword</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Liyue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQ3EhrIJjSqrLg9AdKWypu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBQ3EhrIJjSqrLg9AdKWypu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Yaoyao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRzbhkrbBzbR0PZ4uw2XP6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBRzbhkrbBzbR0PZ4uw2XP6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Thoma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBWp9r1NvqRJsGgPNOMF1il -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBWp9r1NvqRJsGgPNOMF1il">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Venti</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcrUyfxmh97HXnALHFopRx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBcrUyfxmh97HXnALHFopRx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Amber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBksptuCly9l5xvtfBZma4Z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBksptuCly9l5xvtfBZma4Z">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Chongyun</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBr0PZh9F7AfstTTqTxzQpD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBr0PZh9F7AfstTTqTxzQpD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Xiao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwP3pg3yJkzo18EMZ5DVkA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBwP3pg3yJkzo18EMZ5DVkA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Klee</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBx6xrSA2LMf1iAgcgTTp3V -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBx6xrSA2LMf1iAgcgTTp3V">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Kaveh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9Rw2fwUBhuN9r8peYWx5h -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC9Rw2fwUBhuN9r8peYWx5h">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Diluc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCD71C6LcSqUTFHNs9U4oY0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCD71C6LcSqUTFHNs9U4oY0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Qiqi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDrRCrkHGFdQiE9EtKtFoI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDrRCrkHGFdQiE9EtKtFoI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Tighnari</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Geo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCS49vY8eCyHHedl8eBPGgC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCS49vY8eCyHHedl8eBPGgC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Eula</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTVjwMDGiYYru1lvJd2aH2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCTVjwMDGiYYru1lvJd2aH2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Yanfei</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaz2LAs707qkixbdabddGK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCaz2LAs707qkixbdabddGK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R9EmSI5KnHVVP08QZ3mP0WS"/>
+        <rdfs:label>Arlecchino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCckLnG4lJR99lycw9A3I7g -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCckLnG4lJR99lycw9A3I7g">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Dori</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdfQmdTbXzIBU2K3OBgMSM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCdfQmdTbXzIBU2K3OBgMSM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Noelle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>Claymore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCec6ysvc0XuwmFCOowe6X5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCec6ysvc0XuwmFCOowe6X5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Ayaka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCg7urrkCF58RkPkPEP41t5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCg7urrkCF58RkPkPEP41t5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Wanderer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpZjdqJTPbdUug7qHG0BRI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCpZjdqJTPbdUug7qHG0BRI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Jean</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvqyiQuVJqdl9YwMI30lAz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCvqyiQuVJqdl9YwMI30lAz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Freminet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDD77QU9tFr3MxXSYk4sl5s -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDD77QU9tFr3MxXSYk4sl5s">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Cyno</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOmOfTMENaejY8xW2H3w2b -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDOmOfTMENaejY8xW2H3w2b">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Zhongli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVSNF6UBZ3jeQMsiTsI31V -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDVSNF6UBZ3jeQMsiTsI31V">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Emilie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXlbSnB7FzLfVbV1Fyoeff -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXlbSnB7FzLfVbV1Fyoeff">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Kazuha</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZvNoyoFDA1YoRb7ThiTq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDZvNoyoFDA1YoRb7ThiTq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Kuki Shinobu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDf8BYaxrQlCOxkoDPogCB5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDf8BYaxrQlCOxkoDPogCB5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Mona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgTRVwgwyW0AjavlLZwRBc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDgTRVwgwyW0AjavlLZwRBc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Yun Jin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkiWN3BWLN43SYf9iWdCWS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDkiWN3BWLN43SYf9iWdCWS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Keqing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqrg9QdvhCCa7aBd08C8t2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDqrg9QdvhCCa7aBd08C8t2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Albedo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8loMMTT14Dc9l9XqFjH6Bj"/>
+        <rdfs:label>Cryo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGgh1NrlIQPcwmLKLbr8FI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RGgh1NrlIQPcwmLKLbr8FI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Fischl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcTsOjrT5QSMrKB0VFZ7Ie"/>
+        <rdfs:label>Bow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RI7BjcrenbJ5gYVgbhbOq4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RI7BjcrenbJ5gYVgbhbOq4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Nilou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIYncThArP6iHjJNpnlUTx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RIYncThArP6iHjJNpnlUTx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Kaeya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNzllO9K7pqiVaP0Aest7W -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RNzllO9K7pqiVaP0Aest7W">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Xiangling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO8mGEdLJNhxAbNTQf6WGe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RO8mGEdLJNhxAbNTQf6WGe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Dehya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPHGMiQIdiE82MdT7CjMIA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RPHGMiQIdiE82MdT7CjMIA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9S6FPB3G8qouC2PTkVXAgq"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Chevreuse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVWgFpQo2o4XRuiyUAz2EZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RVWgFpQo2o4XRuiyUAz2EZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Shenhe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWGs4ZsGwB5eCcdTvcm6ZI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RWGs4ZsGwB5eCcdTvcm6ZI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Other world</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ra9Fb2OrGTBwZI1eQEeW1J -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ra9Fb2OrGTBwZI1eQEeW1J">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RCeAdq2CTuWoAZLhjuqIkbI"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RBFZgbttuHVlBe45ysH4HeD"/>
+        <rdfs:label>Beidou</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdenP7j4sGd0AeQfnbFLAh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RdenP7j4sGd0AeQfnbFLAh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Kokomi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Inazuma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhLFXIbXk7LLdf21EW3umx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RhLFXIbXk7LLdf21EW3umx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7IQB4VqzmEnae3xX7WfWGN"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Nahida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ri7wnRPXaD91T72Vt6NzWU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Ri7wnRPXaD91T72Vt6NzWU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R8yfLvz9ICIvRsWlAixMjzw"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R9EmSI5KnHVVP08QZ3mP0WS"/>
+        <rdfs:label>Tartaglia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rkgh8sM88qzrGfLXx1IJiB -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rkgh8sM88qzrGfLXx1IJiB">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Yae Miko</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rl38PMmu7oxm7H3w1Jaoeu -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rl38PMmu7oxm7H3w1Jaoeu">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R7SBC4wBuOU9pIJRsqRFZYl"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Clorinde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlFYq9YMDFL6v0vBqNjTsg -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RlFYq9YMDFL6v0vBqNjTsg">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/R9a33GOxwRuuStaqhq1zKIG"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R77n5PAt4lY5G8wrl3UyL2T"/>
+        <rdfs:label>Faruzan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmMBNSkZ8ZcbqtYZQYuCYc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RmMBNSkZ8ZcbqtYZQYuCYc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R9rGr03BjCKjDr2IvHBSWZ5"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/R7rEO207RvtwF8GMrwQK9WG"/>
+        <rdfs:label>Charlotte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqF5sW4DfwADGQXHMlhgAi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RqF5sW4DfwADGQXHMlhgAi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/R72nek6lSmmPFLkOcnbcRnk"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/REtIFjImlpteGgVBsbgW2k"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK"/>
+        <rdfs:label>Mika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rr7HMv7uL07VyAXf8l37ZK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7uZVgU31Yrftk3g0cvwGNk"/>
+        <rdfs:label>Mondstadt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rst68th4uSLajwEICPiHd8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rst68th4uSLajwEICPiHd8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R9hyBMPsQJDbMbV6C6jDiEv"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RBEepfXTDScQIsaN99672eP"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R80VTkdPXy7XjYCJrOGp9ne"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Chiori</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuggD9IYmxooiykZIwaDxj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RuggD9IYmxooiykZIwaDxj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCEBO64MTV6MprFBHYmmnCx"/>
+        <webprotege:RB6ty0OOIO8vhY12wJtdMpP rdf:resource="http://webprotege.stanford.edu/R8ZRqLhkKszT9FxCa94ILTV"/>
+        <webprotege:RBiSaiMd27EDXjGIFW42tZC rdf:resource="http://webprotege.stanford.edu/RHcauEjiV14PFGDFU7OF9Z"/>
+        <webprotege:RDdD3dhmfQGBXqI5Nz6lxun rdf:resource="http://webprotege.stanford.edu/R9YK43nPnvumBwvASEQ7M50"/>
+        <webprotege:RDy5ALZJnnVQHhHviKqPbFG rdf:resource="http://webprotege.stanford.edu/RCH2yccEwQajja4UUfCenkr"/>
+        <webprotege:Rqg67EHuyqXAF0MWs9dKyL rdf:resource="http://webprotege.stanford.edu/RfPPMhvsfpfwIABbebwplS"/>
+        <rdfs:label>Gorou</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
