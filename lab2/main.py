@@ -139,7 +139,7 @@ def get_query(quals, elems, weapons, regs, genders):
                     temp_query += f"{key_word.capitalize()} \\= {preference[1][j]}"
 
         if len(temp_query) != 0:
-            if i == 0:
+            if len(query) == 0:
                 query += f"({temp_query})"
             else:
                 query += f", ({temp_query})"
