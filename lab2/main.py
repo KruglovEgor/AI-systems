@@ -9,68 +9,54 @@ from pyswip import Prolog
 prolog = Prolog()
 prolog.consult("genshin_2.pl")
 
-query = "weapon(X, 'Bow')."
-res = list(prolog.query(query))
-print(res)
-
-
 
 QUALITIES = {
-    5: [5, "5", "legendary", "five", "five-star", "легендарный", "пять звезд", "пяти звездный", "лега"],
-    4: [4, "4", "epic", "four", "four-star", "эпический", "четыре звезды", "четырех звездный", "эпик"]
+    5: [5, "5", "legendary", "five", "five-star", "легендарный", "пять", "пяти-звездный", "лега"],
+    4: [4, "4", "epic", "four", "four-star", "эпический", "четыре", "четырех-звездный", "эпик"]
 }
 
 ELEMENTS = {
-    "Dendro": ["dendro", "дендро"],
-    "Cryo": ["cryo", "крио"],
-    "Pyro": ["pyro", "пиро"],
-    "Hydro": ["hydro", "гидро"],
-    "Geo": ["geo", "гео"],
-    "Electro": ["electro", "электро"],
-    "Anemo": ["anemo", "анемо"]
+    "'Dendro'": ["dendro", "дендро"],
+    "'Cryo'": ["cryo", "крио"],
+    "'Pyro'": ["pyro", "пиро"],
+    "'Hydro'": ["hydro", "гидро"],
+    "'Geo'": ["geo", "гео"],
+    "'Electro'": ["electro", "электро"],
+    "'Anemo'": ["anemo", "анемо"]
 }
 
 WEAPONS = {
-    "Bow": ["bow", "лук", "лучник"],
-    "Catalyst": ["catalyst", "каталист", "катализатор"],
-    "Polearm": ["polearm", "копье", "копейщик"],
-    "Sword": ["sword", "однорук", "одноручный"],
-    "Claymore": ["claymore", "двурук", "двуручный"]
+    "'Bow'": ["bow", "лук", "лучник"],
+    "'Catalyst'": ["catalyst", "каталист", "катализатор"],
+    "'Polearm'": ["polearm", "копье", "копейщик"],
+    "'Sword'": ["sword", "однорук", "одноручный"],
+    "'Claymore'": ["claymore", "двурук", "двуручный"]
 }
 
 REGIONS = {
-    "Mondstadt": ["mondstadt", "монштад"],
-    "Liyue": ["liyue", "ли юэ", "лиюэ"],
-    "Inazuma": ["inazuma", "иназума"],
-    "Sumeru": ["sumeru", "сумеру"],
-    "Fontaine": ["fontaine", "фонтейн"],
-    "Natlan": ["natlan", "натлан"],
-    "Snezhnaya": ["snezhnaya", "снежная"],
-    "Other world": ["other world", "не из этого мира", "не из нашего мира", "другого мира", "другой мир"]
+    "'Mondstadt'": ["mondstadt", "монштад"],
+    "'Liyue'": ["liyue", "ли юэ", "лиюэ"],
+    "'Inazuma'": ["inazuma", "иназума"],
+    "'Sumeru'": ["sumeru", "сумеру"],
+    "'Fontaine'": ["fontaine", "фонтейн"],
+    "'Natlan'": ["natlan", "натлан"],
+    "'Snezhnaya'": ["snezhnaya", "снежная"],
+    "'Other world'": ["other", "нашего", "другого", "другой", "our", "here"]
 }
 
 GENDERS = {
-    "Female": ["female", "f", "woman", "w", "женщина", "девушка", "ж", "женский"],
-    "Male": ["male", "m", "man", "мужчина", "парень", "мужской", "м"]
+    "'Female'": ["female", "f", "woman", "w", "женщина", "девушка", "ж", "женский"],
+    "'Male'": ["male", "m", "man", "мужчина", "парень", "мужской", "м"]
 }
 
 
-def format_input(str):
-    str.lower().strip()
-    punc_marks = [",", ".", ";", "!", "?"]
+def format_input(inp_str):
+    inp_str.lower().strip()
+    punc_marks = [",", ".", ";", "!", "?", "'", '"']
     for mark in punc_marks:
-        str = str.replace(mark, " ")
+        inp_str = inp_str.replace(mark, " ")
 
-    # type_of_weapon = {
-    #     "bow catalyst": ["range", "дальний", "дальнего", "издали"],
-    #     "polearm sword claymore": ["melee", "ближнего", "ближний", "в упоре", "близи"]
-    # }
-    #
-    # for weap, key_list in type_of_weapon.items():
-    #     for keyword in key_list:
-    #         str = str.replace(keyword, weap)
-
-    return str.split()
+    return inp_str.split()
 
 
 def get_matches(key_dict, parsed_inp):
@@ -86,7 +72,7 @@ def get_matches(key_dict, parsed_inp):
 
     start = 0
     if len(matches) == 0:
-        return []
+        return res
     elif len(matches) >= 1:
         for i in range(len(matches)):
             met_not = False
@@ -123,12 +109,53 @@ def get_preferences():
     parsed_gender = format_input(input())
     genders = get_matches(GENDERS, parsed_gender)
 
-    # print("qual", quals)
-    # print("elem", elems)
-    # print("weap", weapons)
-    # print("reg", regs)
-    # print("gen", genders)
+    return quals, elems, weapons, regs, genders
 
 
+def get_query(quals, elems, weapons, regs, genders):
+    key_words = ["quality", "element", "weapon", "region", "gender"]
+    prefs = [quals, elems, weapons, regs, genders]
+    query = ""
 
-get_preferences()
+    for i in range(len(key_words)):
+        key_word = key_words[i]
+        preference = prefs[i]
+        temp_query = ""
+        if len(preference[0]) > 0:
+            for j in range(len(preference[0])):
+                if j != len(preference[0])-1:
+                    temp_query += f"{key_word}(Name, {preference[0][j]}); "
+                else:
+                    temp_query += f"{key_word}(Name, {preference[0][j]})"
+
+        elif len(preference[1]) > 0:
+            temp_query += f"{key_word}(Name, {key_word.capitalize()}), "
+            for j in range(len(preference[1])):
+                if j != len(preference[1])-1:
+                    temp_query += f"{key_word.capitalize()} \\= {preference[1][j]}, "
+                else:
+                    temp_query += f"{key_word.capitalize()} \\= {preference[1][j]}"
+
+        if len(temp_query) != 0:
+            if i == 0:
+                query += f"({temp_query})"
+            else:
+                query += f", ({temp_query})"
+
+    if len(query) > 0:
+        return query + "."
+    else:
+        return "character(Name)."
+
+
+quals, elems, weapons, regs, genders = get_preferences()
+query = get_query(quals, elems, weapons, regs, genders)
+res = list(prolog.query(query))
+if len(res) > 0:
+    print("Here are matches: ")
+    for character in res:
+        print(character["Name"])
+else:
+    print("Ops, there are no characters matching your description :(")
+
+
